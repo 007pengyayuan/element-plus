@@ -21,3 +21,15 @@ import { CircleCloseFilled } from '@element-plus/icons-vue'
 
 const visible = ref(false)
 </script>
+
+<style scoped >
+
+.el-drawer__header {
+  border-bottom: 1px solid #DBDFE6;
+  margin: 0 !important;
+}
+:deep(.el-drawer__header) {
+  border-bottom: 1px solid #DBDFE6;
+  margin: 0 !important;
+}
+</style>
